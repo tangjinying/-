@@ -1,0 +1,110 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+table{
+	width: 800px;
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+table tr{
+	border: 0px;
+}
+.top{
+	background-color: #46B8DA;
+}
+.top tr{
+	height: 50px;
+}
+table th,
+table td{
+	text-align: center;
+	border: 1px solid #1B6D85;
+}
+.details{
+	text-align: left;
+	width: 250px;
+	padding: 10px 10px;
+}
+#details{
+	display: inline-block;
+	width: 60%;
+	text-align: left;
+	line-height: 18px;
+	height: 36px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.count span{
+	display: inline-block;
+	width: 17px;
+	height: 23px;
+	background-color: #C0C0C0;
+	cursor: pointer;
+}
+.count span:hover{
+	box-sizing: border-box;
+	display: inline-block;
+	width: 17px;
+	height: 23px;
+	background-color: #C0C0C0;
+	border: 1px solid #31B0D5;
+	cursor: pointer;
+}
+.count-input{
+	width: 50px;
+	padding: 5px;
+	text-align: center;
+}
+.peace{
+	color: #FF4400;
+}
+.delete,
+#delete-all{
+	text-decoration: none;
+	color: #000000;
+}
+footer{
+	width: 800px;
+	height: 50px;
+	border: 1px solid #8C8C8C;
+	border-radius: 2px;
+	background-color: #C0C0C0;
+	margin: 20px auto;
+	text-align: center;
+}
+footer .fl{
+	float: left;
+	width: 80px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+.down{
+	display: none;
+}
+.fr{
+    float: right;
+}
+.balance{
+	width: 80px;
+	line-height: 50px;
+	border-left: 1px solid #5E5E5E;
+}
+.balance a{
+	text-decoration: none;
+	color: #000000;
+}
+.pricefr{
+	line-height: 50px;
+	margin-right: 20px;
+}
+#sum-price,
+#sum-count{
+	color: #f40;
+}
+.countfr{
+	line-height: 50px;
+	margin-right: 20px;
+	position: relative;
+}

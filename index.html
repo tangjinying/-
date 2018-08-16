@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>购物车</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<script src="js/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/shopping.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<table>
+		<thead class="top">
+			<tr>
+				<th>
+					<leabl><input type="checkbox" class="checkbox select-all" />全选</leabl>
+				</th>
+				<th>
+					商品
+				</th>
+				<th>
+					单价
+				</th>
+				<th>
+					数量
+				</th>
+				<th>
+					小计
+				</th>
+				<th>
+					操作
+				</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><input type="checkbox" class="checkbox select" /></td>
+				<td class="details">
+					<img src="img/shop1.jpg"/>
+					<span id="details">
+						台湾森意洗碗机全自动家用台式嵌入式除菌免安装6套独立式刷碗机
+					</span>
+				</td>
+				<td class="price">
+					2799.00
+				</td>
+				<td class="count">
+					<span class="reduce">-</span>
+					<input class="count-input" type="text" value="1" />
+					<span class="add">+</span>
+				</td>
+				<td class="peace">
+					2799.00
+				</td>
+				<td>
+					<a class="delete" href="javascript:;">删除</a>
+				</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" class="checkbox select" /></td>
+				<td class="details">
+					<img src="img/shop2.jpg"/>
+					<span id="details">
+						2018新款夏季短袖t恤男士韩版潮流体恤衫字母印花上衣夏天衣服
+					</span>
+				</td>
+				<td class="price">
+					48.00
+				</td>
+				<td class="count">
+					<span class="reduce">-</span>
+					<input class="count-input" type="text" value="1" />
+					<span class="add">+</span>
+				</td>
+				<td class="peace">
+					48.00
+				</td>
+				<td>
+					<a class="delete" href="javascript:;">删除</a>
+				</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" class="checkbox select" /></td>
+				<td class="details">
+					<img src="img/shop3.jpg"/>
+					<span id="details">
+						【七夕】兰蔻菁纯柔润唇膏口红唇彩显色持久滋润120赤茶橘290豆沙
+					</span>
+				</td>
+				<td class="price">
+					270.00
+				</td>
+				<td class="count">
+					<span class="reduce">-</span>
+					<input class="count-input" type="text" value="1" />
+					<span class="add">+</span>
+				</td>
+				<td class="peace">
+					270.00
+				</td>
+				<td>
+					<a class="delete" href="javascript:;">删除</a>
+				</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" class="checkbox select" /></td>
+				<td class="details">
+					<img src="img/shop4.jpg"/>
+					<span id="details">
+						港风夏季真皮板鞋男韩版潮流百搭运动休闲鞋黑色滑板鞋英伦潮鞋子
+					</span>
+				</td>
+				<td class="price">
+					168.00
+				</td>
+				<td class="count">
+					<span class="reduce">-</span>
+					<input class="count-input" type="text" value="1" />
+					<span class="add">+</span>
+				</td>
+				<td class="peace">
+					168.00
+				</td>
+				<td >
+					<a class="delete" href="javascript:;">删除</a>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<footer>
+		<div class="fl">
+		     <lebal><input type="checkbox"  class="checkbox select-all" />全选</lebal>
+		</div>
+		<a href="javascript:;" id="delete-all" class="fl">删除</a>
+		<div class="fr balance">
+			<a href="javascript:;">结算</a>
+		</div>
+		<div class="fr pricefr">
+			合计:￥<span id="sum-price">0.00</span>
+		</div>
+		<div class="fr countfr">
+			已选商品<span id="sum-count">0</span>件<!--<span class="pull">︽</span><span class="down">︾</span>-->
+		</div>
+	</footer>
+</body>
+</html>
